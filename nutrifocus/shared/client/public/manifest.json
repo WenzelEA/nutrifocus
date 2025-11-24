@@ -1,0 +1,93 @@
+{
+  "name": "NutriFocus - Aplicativo de Emagrecimento e Nutrição",
+  "short_name": "NutriFocus",
+  "description": "Seu assistente nutricional digital para emagrecimento inteligente e sustentável",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#059669",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["health", "fitness", "productivity"],
+  "screenshots": [
+    {
+      "src": "/screenshot-1.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-2.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Cálculo de IMC",
+      "short_name": "IMC",
+      "description": "Calcule seu índice de massa corporal",
+      "url": "/app?tab=imc",
+      "icons": [
+        {
+          "src": "/icon-imc-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Diário de Calorias",
+      "short_name": "Calorias",
+      "description": "Registre suas refeições e acompanhe calorias",
+      "url": "/app?tab=calories",
+      "icons": [
+        {
+          "src": "/icon-calories-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Receitas",
+      "short_name": "Receitas",
+      "description": "Explore 120 receitas saudáveis",
+      "url": "/app?tab=recipes",
+      "icons": [
+        {
+          "src": "/icon-recipes-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
